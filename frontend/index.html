@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90's MySpace Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MySpace Clone</h1>
+        </header>
+        <main>
+            <section id="profile">
+                <h2>My Profile</h2>
+                <form id="profileForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="text" id="status" placeholder="Your Status" required>
+                    <button type="submit">Create Profile</button>
+                </form>
+            </section>
+            <section id="topFriends">
+                <h2>Top 4 Friends</h2>
+                <div id="friendsList"></div>
+                <form id="topFriendsForm">
+                    <input type="text" id="friend1" placeholder="Friend 1 Principal ID">
+                    <input type="text" id="friend2" placeholder="Friend 2 Principal ID">
+                    <input type="text" id="friend3" placeholder="Friend 3 Principal ID">
+                    <input type="text" id="friend4" placeholder="Friend 4 Principal ID">
+                    <button type="submit">Update Top Friends</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

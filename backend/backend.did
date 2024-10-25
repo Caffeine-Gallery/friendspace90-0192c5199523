@@ -1,0 +1,13 @@
+type UserProfile = 
+ record {
+   name: text;
+   status: text;
+   topFriends: vec UserId;
+ };
+type UserId = principal;
+service : {
+  createProfile: (text, text) -> ();
+  getProfile: (UserId) -> (opt UserProfile) query;
+  getTopFriends: (UserId) -> (vec opt UserProfile) query;
+  updateTopFriends: (vec UserId) -> ();
+}

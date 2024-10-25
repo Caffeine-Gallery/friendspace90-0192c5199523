@@ -1,0 +1,73 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    background-color: #FFD1DC;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 3px solid #000080;
+    box-shadow: 5px 5px 0 #000080;
+}
+
+header {
+    text-align: center;
+    background-color: #00CED1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px #FF69B4;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FF1493;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #000080;
+}
+
+button {
+    background-color: #FF69B4;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+}
+
+button:hover {
+    background-color: #FF1493;
+}
+
+#profile, #topFriends {
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #E6E6FA;
+    border: 2px dashed #000080;
+}
+
+#friendsList {
+    margin-bottom: 10px;
+}
+
+#friendsList div {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #000080;
+}
